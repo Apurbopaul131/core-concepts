@@ -1,11 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-function london(){
-  return (<div>
-    <h1>My name: Apurbo paul </h1>
-    <p>My father name is Shanti rangan paul</p>
-  </div>);
-}
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +22,12 @@ function App() {
       </header>
     </div>
   );
+}
+function london(){
+  return (<div>
+    <h1>My name: Apurbo paul </h1>
+    <p>My father name is Shanti rangan paul</p>
+  </div>);
 }
 
 
